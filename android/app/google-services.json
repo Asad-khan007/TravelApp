@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "11103948844",
+    "project_id": "todolistapp-e1276",
+    "storage_bucket": "todolistapp-e1276.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11103948844:android:023cd5ed16f0587a9e0189",
+        "android_client_info": {
+          "package_name": "com.travelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11103948844-qffn8lspkqvs7f67qdsu23l1cpn9c3to.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcwcb5mBxvyoOvzQinAAh1922QFTbNTTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11103948844-qffn8lspkqvs7f67qdsu23l1cpn9c3to.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
