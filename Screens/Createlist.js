@@ -11,6 +11,7 @@ import {
   Button,
   KeyboardAvoidingView,
   RefreshControl,
+  Alert,
 } from 'react-native';
 import React, {useState, useEffect, useRef} from 'react';
 import firestore from '@react-native-firebase/firestore';
@@ -112,8 +113,7 @@ const Createlist = () => {
           <TextInput
             style={styles.modalInput}
             onChangeText={val => setModalValue(val)}
-            value={selectedItem.input}
-            placeholder="Update Item"
+            placeholder={selectedItem.input}
           />
           <View style={styles.modalBtnContainer}>
             <TouchableOpacity
@@ -235,7 +235,7 @@ const styles = StyleSheet.create({
     height: 20,
     backgroundColor: 'transparent',
     borderWidth: 3,
-    borderColor: '#4B9AFF',
+    borderColor: 'transparent',
     borderRadius: 10,
     marginRight: '5%',
     // paddingLeft: '20%',
